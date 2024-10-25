@@ -10,9 +10,11 @@ public class OperationMathematique {
 	}
 	
 	public int factorial(int number) {
+	    if (number < 0) throw new IllegalParamISIException("Factorial of a negative number does not exist");
 	    if (number <= 1) return 1;
 	    return number * factorial(number - 1);
 	}
+
 	
 
 
