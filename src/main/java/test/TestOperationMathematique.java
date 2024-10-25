@@ -18,5 +18,14 @@ package test;
 	        assertEquals(1, op.factorial(0));
 	        assertEquals(120, op.factorial(5));
 	    }
+	    
+	    @Test
+	    public void testSort() {
+	        OperationMathematique op = new OperationMathematique();
+	        Integer[] input = {1, 5, 3, 9, 2};
+	        Integer[] expected = {9, 5, 3, 2, 1};
+	        assertArrayEquals(expected, op.sort(input));
+	    }
+
 	}
 
