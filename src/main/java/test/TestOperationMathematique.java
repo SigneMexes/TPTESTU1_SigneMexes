@@ -8,8 +8,8 @@ package test;
 	    @Test
 	    public void testEstPositif() {
 	        OperationMathematique op = new OperationMathematique();
-	        assertTrue(op.estPositif(5));
-	        assertFalse(op.estPositif(-3));
+	        assertTrue(op.estPositif(58));
+	        assertFalse(op.estPositif(-32));
 	    }
 
 	    @Test
