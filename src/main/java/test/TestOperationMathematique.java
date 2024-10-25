@@ -26,6 +26,13 @@ package test;
 	        Integer[] expected = {9, 5, 3, 2, 1};
 	        assertArrayEquals(expected, op.sort(input));
 	    }
+	    
+	    @Test
+	    public void testFactorialNegative() {
+	        OperationMathematique op = new OperationMathematique();
+	        assertThrows(IllegalParamISIException.class, () -> op.factorial(-5));
+	    }
+
 
 	}
 
