@@ -4,4 +4,13 @@
   <artifactId>PracticalWork</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>TPTESTU1_SigneMexes</name>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.junit.jupiter</groupId>
+  		<artifactId>junit-jupiter-engine</artifactId>
+  		<version>5.8.1</version>
+  	</dependency>
+  </dependencies>
 </project>
+
+
