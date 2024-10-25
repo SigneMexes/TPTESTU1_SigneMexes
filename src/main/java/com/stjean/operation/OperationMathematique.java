@@ -22,6 +22,14 @@ public class OperationMathematique {
 	    Arrays.sort(lists, Collections.reverseOrder());
 	    return lists;
 	}
+	
+	public double maxNumba(double[] values) {
+	    double max = Double.NEGATIVE_INFINITY;
+	    for (double value : values) {
+	        if (value > max) max = value;
+	    }
+	    return max;
+	}
 
 
 	public static void main(String[] args) {
