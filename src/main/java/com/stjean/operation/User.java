@@ -1,5 +1,7 @@
 package com.stjean.operation;
 
+import java.util.ArrayList;
+
 public class User {
     private int id;
     private String name;
@@ -8,6 +10,7 @@ public class User {
     private String phone;
     private String city;
     private double balancePersonnel;
+    public static ArrayList<User> users = new ArrayList<>();
 
     // Constructor, getters, and setters
     public User(int id, String name, int age, String email, String phone, String city, double balancePersonnel) {
