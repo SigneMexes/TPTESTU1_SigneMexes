@@ -32,6 +32,14 @@ package test;
 	        OperationMathematique op = new OperationMathematique();
 	        assertThrows(IllegalParamISIException.class, () -> op.factorial(-5));
 	    }
+	    
+	    @Test
+	    public void testMaxNumba() {
+	        OperationMathematique op = new OperationMathematique();
+	        double[] values = {1.5, 3.7, 2.4, 9.6, 5.3};
+	        assertEquals(9.6, op.maxNumba(values), 0.01);
+	    }
+
 
 
 	}
